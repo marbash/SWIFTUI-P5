@@ -14,6 +14,10 @@
 		09CCC19324672D0300F3ADD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CCC19224672D0300F3ADD8 /* Preview Assets.xcassets */; };
 		09CCC19624672D0300F3ADD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CCC19424672D0300F3ADD8 /* LaunchScreen.storyboard */; };
 		09CCC1A02468291C00F3ADD8 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09CCC19F2468291C00F3ADD8 /* PhantomFromSpace.mp3 */; };
+		09CCC1A22469733300F3ADD8 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCC1A12469733300F3ADD8 /* CalculatorView.swift */; };
+		09CCC1A52469761500F3ADD8 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCC1A42469761500F3ADD8 /* Env.swift */; };
+		09CCC1A72469768100F3ADD8 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCC1A62469768100F3ADD8 /* Field.swift */; };
+		09CCC1AA2469781600F3ADD8 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCC1A92469781600F3ADD8 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		09CCC19524672D0300F3ADD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09CCC19724672D0300F3ADD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09CCC19F2468291C00F3ADD8 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PhantomFromSpace.mp3; path = ../../../../Downloads/PhantomFromSpace.mp3; sourceTree = "<group>"; };
+		09CCC1A12469733300F3ADD8 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		09CCC1A42469761500F3ADD8 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
+		09CCC1A62469768100F3ADD8 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		09CCC1A92469781600F3ADD8 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,8 @@
 			children = (
 				09CCC18924672D0100F3ADD8 /* AppDelegate.swift */,
 				09CCC18B24672D0100F3ADD8 /* SceneDelegate.swift */,
-				09CCC18D24672D0100F3ADD8 /* TicTacToeView.swift */,
 				09CCC19F2468291C00F3ADD8 /* PhantomFromSpace.mp3 */,
+				09CCC1A82469768E00F3ADD8 /* Models */,
 				09CCC18F24672D0300F3ADD8 /* Assets.xcassets */,
 				09CCC19424672D0300F3ADD8 /* LaunchScreen.storyboard */,
 				09CCC19724672D0300F3ADD8 /* Info.plist */,
@@ -76,6 +84,26 @@
 				09CCC19224672D0300F3ADD8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		09CCC1A3246975D400F3ADD8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09CCC18D24672D0100F3ADD8 /* TicTacToeView.swift */,
+				09CCC1A12469733300F3ADD8 /* CalculatorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09CCC1A82469768E00F3ADD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09CCC1A42469761500F3ADD8 /* Env.swift */,
+				09CCC1A62469768100F3ADD8 /* Field.swift */,
+				09CCC1A92469781600F3ADD8 /* Player.swift */,
+				09CCC1A3246975D400F3ADD8 /* Views */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09CCC1A52469761500F3ADD8 /* Env.swift in Sources */,
+				09CCC1A22469733300F3ADD8 /* CalculatorView.swift in Sources */,
+				09CCC1A72469768100F3ADD8 /* Field.swift in Sources */,
 				09CCC18A24672D0100F3ADD8 /* AppDelegate.swift in Sources */,
+				09CCC1AA2469781600F3ADD8 /* Player.swift in Sources */,
 				09CCC18C24672D0100F3ADD8 /* SceneDelegate.swift in Sources */,
 				09CCC18E24672D0100F3ADD8 /* TicTacToeView.swift in Sources */,
 			);
