@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		09CCC18A24672D0100F3ADD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCC18924672D0100F3ADD8 /* AppDelegate.swift */; };
 		09CCC18C24672D0100F3ADD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCC18B24672D0100F3ADD8 /* SceneDelegate.swift */; };
-		09CCC18E24672D0100F3ADD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCC18D24672D0100F3ADD8 /* ContentView.swift */; };
+		09CCC18E24672D0100F3ADD8 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CCC18D24672D0100F3ADD8 /* TicTacToeView.swift */; };
 		09CCC19024672D0300F3ADD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CCC18F24672D0300F3ADD8 /* Assets.xcassets */; };
 		09CCC19324672D0300F3ADD8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CCC19224672D0300F3ADD8 /* Preview Assets.xcassets */; };
 		09CCC19624672D0300F3ADD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CCC19424672D0300F3ADD8 /* LaunchScreen.storyboard */; };
+		09CCC1A02468291C00F3ADD8 /* PhantomFromSpace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09CCC19F2468291C00F3ADD8 /* PhantomFromSpace.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09CCC18624672D0100F3ADD8 /* SWIFTUI P5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWIFTUI P5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CCC18924672D0100F3ADD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09CCC18B24672D0100F3ADD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09CCC18D24672D0100F3ADD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09CCC18D24672D0100F3ADD8 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
 		09CCC18F24672D0300F3ADD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09CCC19224672D0300F3ADD8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		09CCC19524672D0300F3ADD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09CCC19724672D0300F3ADD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CCC19F2468291C00F3ADD8 /* PhantomFromSpace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PhantomFromSpace.mp3; path = ../../../../Downloads/PhantomFromSpace.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				09CCC18924672D0100F3ADD8 /* AppDelegate.swift */,
 				09CCC18B24672D0100F3ADD8 /* SceneDelegate.swift */,
-				09CCC18D24672D0100F3ADD8 /* ContentView.swift */,
+				09CCC18D24672D0100F3ADD8 /* TicTacToeView.swift */,
+				09CCC19F2468291C00F3ADD8 /* PhantomFromSpace.mp3 */,
 				09CCC18F24672D0300F3ADD8 /* Assets.xcassets */,
 				09CCC19424672D0300F3ADD8 /* LaunchScreen.storyboard */,
 				09CCC19724672D0300F3ADD8 /* Info.plist */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09CCC19624672D0300F3ADD8 /* LaunchScreen.storyboard in Resources */,
+				09CCC1A02468291C00F3ADD8 /* PhantomFromSpace.mp3 in Resources */,
 				09CCC19324672D0300F3ADD8 /* Preview Assets.xcassets in Resources */,
 				09CCC19024672D0300F3ADD8 /* Assets.xcassets in Resources */,
 			);
@@ -148,7 +152,7 @@
 			files = (
 				09CCC18A24672D0100F3ADD8 /* AppDelegate.swift in Sources */,
 				09CCC18C24672D0100F3ADD8 /* SceneDelegate.swift in Sources */,
-				09CCC18E24672D0100F3ADD8 /* ContentView.swift in Sources */,
+				09CCC18E24672D0100F3ADD8 /* TicTacToeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
